@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Header*/
+Header{
+    background-color: #DD975B;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.Lista-header{
+    display: inline-block;
+}
+
+.Logo{
+    height: 77px;
+    width: 117.5px;
+}
+/*Fin Header*/
+
+/*Mains*/
+main{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.Titulo-Mapa{
+    padding: 10px 10px 10px 10px;
+}
+
+.Titulo-Contacto{
+    padding: 10px 10px 10px 10px;
+}
+
+.Formulario-contacto{
+    padding: 5px 10px 15px 10px;
+}
+
+.Imágenes-galeria{
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 300px;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+}
+/*Fin Mains*/
+
+/*Footer*/
+footer{
+    background-color: #DD975B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Foto-footer{
+    height: 50px;
+    width: 55px;
+}
+
+.Foto-Inicio{
+    position: sticky;
+    text-align: center;
+}
+/*Fin Footer*/
