@@ -13,22 +13,37 @@
     <link rel="shortcut icon" href="../Favicon.png">
 </head>
 <body>
-    <!--HEADER-->
     <header>
-        <!--LOGO-->
-        <a href="../index.html"><img src="../Assets/Logo/Logo claro.png" alt="Logo de la marca" class="Logo"></a>
-        <!--PESTAÑAS-->
-        <nav class="Lista-header">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./Servicios.html">Servicios</a></li>
-                <li><a href="./Galería.html">Galería</a></li>
-                <li><a href="./Ubicación.html">Ubicación</a></li>
-                <li><a href="./Contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <!--Logo -->
+            <a class="navbar-brand" href="../index.html"><img src="../Assets/Logo/Logo claro.png" alt="Logo de la marca" class="Logo"></a>
+    
+            <!--Menu Hamburguesa -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Páginas-->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link menu-link Hover" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link Hover" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link Hover" href="../Pages/Galería.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link Hover" href="../Pages/Ubicación.html">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link Hover" href="../Pages/Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <!--PESTAÑAS-->
-    <!--Fin header-->
     </header>
     <main>
         <!--Texto Sobre las Cabañas-->
@@ -50,14 +65,40 @@
     </main>
     <!--Footer-->
     <footer>
-        <nav>
-            <ul>
-                <li><img src="../Assets/Footer/Facebook.png" alt="" class="Foto-footer">Facebook</li>
-                <li><img src="../Assets/Footer/instagram.png" alt="" class="Foto-footer">instagram</li>
-                <li><img src="../Assets/Footer/Mail.png" alt="" class="Foto-footer">antumahuidasr@gmail.com</li>
-                <li><img src="../Assets/Footer/Telefono.png" alt="" class="Foto-footer"><!-- inserte telefono aquí--></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <ul class="list-unstyled">
+                        <li>
+                            <img src="../Assets/Footer/Facebook.png" alt="" class="Foto-footer"> Facebook
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-12">
+                    <ul class="list-unstyled">
+                        <li>
+                            <img src="../Assets/Footer/instagram.png" alt="" class="Foto-footer"> Instagram
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <ul class="list-unstyled">
+                        <li>
+                            <img src="../Assets/Footer/Mail.png" alt="" class="Foto-footer"> antumahuidasr@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-12">
+                    <ul class="list-unstyled">
+                        <li>
+                            <img src="../Assets/Footer/Telefono.png" alt="" class="Foto-footer"> ... <!-- Inserte teléfono aquí -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
     <!--Fin Footer-->
     <!--JavaScript-->
