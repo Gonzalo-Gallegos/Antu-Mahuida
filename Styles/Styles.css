@@ -9,18 +9,28 @@
 
 /*Header*/
 Header{
-    background-color: #DD975B;
     font-family: 'Montserrat', sans-serif;
     display: flex;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.Hover:hover {
+    color: #DD975B;
+    border-bottom: 2px solid #DD975B;
+}
+
+header {
+    border-bottom: 2px solid #DD975B;
 }
 
 ul li{
     display: inline-block;
 }
 
-.Lista-header{
-    display: inline-block;
-}
+
 
 .Logo{
     height: 77px;
@@ -62,9 +72,18 @@ a{
 /*Fin Mains*/
 
 /*Footer*/
-footer{
-    background-color: #DD975B;
+
+footer {
+    background-color: white;
+    border-top: 2px solid #DD975B;
     font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .col-12 {
+    margin-top: 20px; /* Ajusta el valor según el espacio que desees */
 }
 
 .Foto-footer{
