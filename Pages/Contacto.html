@@ -48,24 +48,33 @@
     </header>
     <!--Fin de header-->
     <!--Main-->
-    <main>
-        <section> 
-        <h1 class="Titulo-Contacto">Contáctenos vía e-mail</h1> 
-            <!--Formulario-->
-            <form action="404.html" class="Formulario-contacto">
-                <label for="nombre">Nombre y Apellido</label>
-                <input type="text" id="nombre" placeholder="Ingrese su nombre y apellido">
-                <label for="email">Email</label>
-                <input type="email"id="email" placeholder="Ingrese su email">
-                <label for="fecha">Fecha</label>
-                <input type="date" id="fecha"> <!--Lo ideal sería usar js para poder seleccionar un periodo entre dos fechas-->
-                <label for="mensaje">Mensaje</label>
-                <input type="text" id="mensaje">
-                <input type="submit"> 
-            </form>
-            <!-- Fin de Formulario-->
-        </section>
-    </main>
+    <!--Main-->
+<!--Main-->
+<main>
+    <section> 
+    <h1 class="Titulo-Contacto">Contáctenos vía e-mail</h1> 
+        <!--Formulario-->
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="../Assets/Fotos Galería/WhatsApp Image 2023-08-09 at 11.04.12 PM (1).jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">e-mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Inserte dirección de email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-outline-warning">Enviar</button>
+              </div>
+            </div>
+          </div>
+        <!-- Fin de Formulario-->
+    </section>
+</main>
     <!--Fin de Main-->
     <!--Footer-->
     <footer>
